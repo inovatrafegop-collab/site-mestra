@@ -493,5 +493,47 @@ class Component extends DCLogic {
   }
 }
 </script>
+<script>
+// Envia o lead para a planilha (Google Apps Script) e abre o WhatsApp com os dados preenchidos.
+(function () {
+  var PLANILHA_URL = 'https://script.google.com/macros/s/AKfycbxt46cYWmoMXK7P5hzpGFF-RkdQ9wJyn0qpa8zc1f0qWfC6YRSRot5p-Ruu9Nb3df5Q/exec';
+  var NUMEROS = { 'Juína': '5566984330006', 'Juara': '5566984060009', 'Brasnorte': '5566984395621', 'Colniza': '5566992287360' };
+
+  document.addEventListener('click', function (ev) {
+    var form = document.getElementById('form-proposta');
+    var link = ev.target.closest && ev.target.closest('#form-proposta a[href*="wa.me"]');
+    if (!form || !link) return;
+
+    if (!form.checkValidity()) {
+      ev.preventDefault();
+      form.reportValidity();
+      return;
+    }
+
+    var d = new FormData(form);
+    var dados = {
+      nome: d.get('nome') || '',
+      empresa: d.get('empresa') || '',
+      whatsapp: d.get('whatsapp') || '',
+      unidade: d.get('unidade') || '',
+      colaboradores: d.get('colaboradores') || '',
+      interesse: d.get('interesse') || ''
+    };
+
+    fetch(PLANILHA_URL, { method: 'POST', mode: 'no-cors', keepalive: true, body: new URLSearchParams(dados) })
+      .catch(function () {});
+
+    var msg = 'Olá! Vim pelo site e quero receber uma proposta para minha empresa.\n' +
+      'Nome: ' + dados.nome + '\n' +
+      'Empresa: ' + dados.empresa + '\n' +
+      'WhatsApp: ' + dados.whatsapp + '\n' +
+      'Unidade: ' + dados.unidade + '\n' +
+      'Colaboradores: ' + dados.colaboradores + '\n' +
+      'Interesse: ' + dados.interesse;
+    var numero = NUMEROS[dados.unidade];
+    if (numero) link.href = 'https://wa.me/' + numero + '?text=' + encodeURIComponent(msg);
+  }, true);
+})();
+</script>
 </body>
 </html>
