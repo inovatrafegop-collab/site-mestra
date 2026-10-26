@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Mestra Medicina e Segurança do Trabalho — Juína/MT</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&amp;family=Public+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#005D53}a:hover{color:#00443C}
+*{box-sizing:border-box}
+input,select{font:inherit}
+.unid{position:relative;display:flex}
+.unid input{position:absolute;opacity:0;width:1px;height:1px}
+.unid span{flex:1;display:flex;align-items:center;justify-content:center;min-height:48px;padding:10px 12px;border:1.5px solid #B8C4C2;border-radius:6px;font-size:15px;font-weight:600;color:#1F2A2C;background:#FFFFFF;cursor:pointer;text-align:center}
+.unid span:hover{border-color:#005D53}
+.unid input:checked+span{background:#005D53;border-color:#005D53;color:#FFFFFF}
+.unid input:focus-visible+span{outline:3px solid #8FC9BF;outline-offset:2px}
+</style>
+</helmet>
+<div style="font-family: 'Public Sans', system-ui, sans-serif; color: #1F2A2C; background: #FFFFFF; width: 100%; line-height: 1.55;">
+
+  <!-- HEADER -->
+  <header style="background: #FFFFFF; border-bottom: 1px solid #E3E8E7;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 14px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px;">
+      <a href="#topo" style="display: flex; align-items: center;"><img src="./assets/600d501aab16604520f908048c69b2dc.png" alt="Mestra Medicina e Segurança do Trabalho" style="height: 52px; width: auto; display: block;"></a>
+      <nav aria-label="Principal" style="display: flex; flex-wrap: wrap; align-items: center; gap: 26px; font-size: 15px; font-weight: 500;">
+        <a href="#servicos" style="color: #1F2A2C; text-decoration: none;">Serviços</a>
+        <a href="#in-company" style="color: #1F2A2C; text-decoration: none;">In company</a>
+        <a href="#como-funciona" style="color: #1F2A2C; text-decoration: none;">Como funciona</a>
+        <a href="#unidades" style="color: #1F2A2C; text-decoration: none;">Unidades</a>
+        <a href="#contato" style="color: #1F2A2C; text-decoration: none;">Contato</a>
+        <a href="https://wa.me/5566984330006?text=Ol%C3%A1!%20Quero%20receber%20uma%20proposta%20de%20sa%C3%BAde%20e%20seguran%C3%A7a%20do%20trabalho%20para%20minha%20empresa." style="background: #005D53; color: #FFFFFF; text-decoration: none; padding: 12px 20px; border-radius: 6px; font-weight: 600; min-height: 44px; display: inline-flex; align-items: center;">Solicitar proposta</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="topo" style="background: #012C33; color: #FFFFFF;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px 80px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center;">
+      <div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 24px;">
+        <p style="margin: 0; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #8FC9BF; font-weight: 600;">Saúde Ocupacional + Segurança do Trabalho · desde 2002</p>
+        <h1 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: clamp(36px, 5vw, 58px); line-height: 1.08; letter-spacing: -0.01em;">Sua equipe apta e sua empresa em dia com a lei, sem parar a operação.</h1>
+        <p style="margin: 0; font-size: 19px; color: #C9DCDA; max-width: 620px;">Exames ocupacionais, PCMSO, PGR, LTCAT e eSocial resolvidos com um só parceiro. Na nossa clínica ou dentro da sua empresa, em Juína e em todo o noroeste de Mato Grosso.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 8px;">
+          <a href="https://wa.me/5566984330006?text=Ol%C3%A1!%20Quero%20receber%20uma%20proposta%20de%20sa%C3%BAde%20e%20seguran%C3%A7a%20do%20trabalho%20para%20minha%20empresa." style="background: #FFFFFF; color: #012C33; text-decoration: none; padding: 16px 26px; border-radius: 6px; font-weight: 700; font-size: 16px; min-height: 52px; display: inline-flex; align-items: center; gap: 10px;">
+            <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.6 7.3L3 20.5l1.8-5.2A8.4 8.4 0 1 1 21 11.5z"></path></svg>
+            Solicitar proposta para minha empresa
+          </a>
+          <a href="#servicos" style="border: 1px solid #5E8F92; color: #FFFFFF; text-decoration: none; padding: 16px 26px; border-radius: 6px; font-weight: 600; font-size: 16px; min-height: 52px; display: inline-flex; align-items: center;">Ver serviços</a>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 24px; margin-top: 20px; padding-top: 28px; border-top: 1px solid #1D5A62;">
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <p style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 34px; font-weight: 600; line-height: 1;">24 anos</p>
+            <p style="margin: 0; color: #C9DCDA; font-size: 14px;">de atuação na região</p>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <p style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 34px; font-weight: 600; line-height: 1;">4 unidades</p>
+            <p style="margin: 0; color: #C9DCDA; font-size: 14px;">Juína, Juara, Brasnorte e Colniza</p>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <p style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 34px; font-weight: 600; line-height: 1;">In company</p>
+            <p style="margin: 0; color: #C9DCDA; font-size: 14px;">atendimento na sua empresa</p>
+          </div>
+        </div>
+      </div>
+      <div style="flex: 1 1 360px; min-width: 0;">
+        <div style="width: 100%; height: 480px; border-radius: 14px; background: #0A3D45; border: 1px solid #1D5A62; display: flex; align-items: center; justify-content: center; padding: 48px;">
+          <img src="./assets/be123302aa51d6083f80c7ba55cbb32e.png" alt="Mestra Medicina e Segurança do Trabalho" style="width: 100%; max-width: 360px; height: auto; display: block;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOR -->
+  <section style="background: #F3F6F5;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; gap: 40px;">
+      <div style="max-width: 720px; display: flex; flex-direction: column; gap: 14px;">
+        <p style="margin: 0; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #005D53; font-weight: 700;">O custo de deixar para depois</p>
+        <h2 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.15; color: #0F1C1E;">Exame vencido não avisa. A fiscalização avisa.</h2>
+        <p style="margin: 0; font-size: 18px; color: #4A5759;">Quem toca madeireira, fazenda ou empresa com equipe em campo conhece o problema: o ASO vence no meio da safra, o colaborador perde o dia para ir à cidade e os programas obrigatórios ficam para o mês que vem.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px;">
+        <div style="background: #FFFFFF; border: 1px solid #DCE3E2; border-radius: 10px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
+          <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#005D53" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+          <h3 style="margin: 0; font-size: 19px; color: #0F1C1E;">Exames vencidos</h3>
+          <p style="margin: 0; color: #4A5759;">ASO fora do prazo expõe a empresa a autuações e a passivo trabalhista, além de pendências no eSocial.</p>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid #DCE3E2; border-radius: 10px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
+          <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#005D53" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17h2l2-5h10l2 5h2"></path><circle cx="7.5" cy="17.5" r="1.5"></circle><circle cx="16.5" cy="17.5" r="1.5"></circle></svg>
+          <h3 style="margin: 0; font-size: 19px; color: #0F1C1E;">Equipe parada</h3>
+          <p style="margin: 0; color: #4A5759;">Cada colaborador deslocado para fazer exame é um turno a menos na operação, e isso pesa no fim do mês.</p>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid #DCE3E2; border-radius: 10px; padding: 28px; display: flex; flex-direction: column; gap: 12px;">
+          <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#005D53" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path><path d="M9 13h6M9 17h4"></path></svg>
+          <h3 style="margin: 0; font-size: 19px; color: #0F1C1E;">Programas e laudos desatualizados</h3>
+          <p style="margin: 0; color: #4A5759;">Sem PCMSO, PGR e LTCAT alinhados aos riscos de cada função, a empresa não sabe quais exames exigir e fica exposta numa fiscalização.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos" style="background: #FFFFFF;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 44px;">
+      <div style="max-width: 780px; display: flex; flex-direction: column; gap: 14px;">
+        <p style="margin: 0; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #005D53; font-weight: 700;">Serviços</p>
+        <h2 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.15; color: #0F1C1E;">Saúde ocupacional e segurança do trabalho: soluções integradas em um só lugar.</h2>
+        <p style="margin: 0; font-size: 18px; color: #4A5759;">Do exame do colaborador aos laudos técnicos da empresa, um único parceiro cuida de toda a obrigação legal. Menos fornecedores para coordenar e menos papel perdido.</p>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 20px;">
+        <h3 style="margin: 0; font-size: 15px; letter-spacing: 0.1em; text-transform: uppercase; color: #0F1C1E; display: flex; align-items: center; gap: 12px;"><span style="width: 28px; height: 2px; background: #005D53; display: inline-block;"></span>Saúde Ocupacional</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+          <div style="border: 1px solid #DCE3E2; border-radius: 10px; padding: 30px; display: flex; flex-direction: column; gap: 14px; border-top: 4px solid #005D53;">
+            <h4 style="margin: 0; font-size: 21px; color: #0F1C1E;">Exames ocupacionais (ASO)</h4>
+            <p style="margin: 0; color: #4A5759;">Avaliação clínica e emissão do Atestado de Saúde Ocupacional em todas as etapas do vínculo.</p>
+            <p style="margin: 0; color: #1F2A2C; font-size: 15px;">Admissional · Periódico · Retorno ao trabalho · Mudança de riscos ocupacionais · Demissional</p>
+          </div>
+          <div style="border: 1px solid #DCE3E2; border-radius: 10px; padding: 30px; display: flex; flex-direction: column; gap: 14px; border-top: 4px solid #005D53;">
+            <h4 style="margin: 0; font-size: 21px; color: #0F1C1E;">Elaboração de PCMSO</h4>
+            <p style="margin: 0; color: #4A5759;">Programa de Controle Médico de Saúde Ocupacional feito a partir dos riscos de cada função, integrado ao PGR da empresa.</p>
+          </div>
+          <div style="border: 1px solid #DCE3E2; border-radius: 10px; padding: 30px; display: flex; flex-direction: column; gap: 14px; border-top: 4px solid #005D53;">
+            <h4 style="margin: 0; font-size: 21px; color: #0F1C1E;">Exames complementares</h4>
+            <p style="margin: 0; color: #4A5759;">Realizados nas unidades da Mestra. Exames laboratoriais e de imagem são feitos por meio de empresas parceiras.</p>
+            <p style="margin: 0; color: #1F2A2C; font-size: 15px;">Audiometria · Espirometria · Eletrocardiograma · Eletroencefalograma · Acuidade visual · Teste de Ishihara · Romberg · Escala de Epworth · Avaliação dermatológica</p>
+          </div>
+          <div style="border: 1px solid #DCE3E2; border-radius: 10px; padding: 30px; display: flex; flex-direction: column; gap: 14px; border-top: 4px solid #005D53;">
+            <h4 style="margin: 0; font-size: 21px; color: #0F1C1E;">Avaliações especializadas</h4>
+            <p style="margin: 0; color: #4A5759;">Para funções com exigências específicas de aptidão física e mental.</p>
+            <p style="margin: 0; color: #1F2A2C; font-size: 15px;">Avaliação psicossocial · Avaliação cinesiofuncional · Rastreamento de epilepsia · Laudo PCD</p>
+          </div>
+          <div style="border: 1px solid #DCE3E2; border-radius: 10px; padding: 30px; display: flex; flex-direction: column; gap: 14px; border-top: 4px solid #005D53;">
+            <h4 style="margin: 0; font-size: 21px; color: #0F1C1E;">Exame toxicológico</h4>
+            <p style="margin: 0; color: #4A5759;">Toxicológico para motoristas contratados pela CLT e para renovação ou mudança de categoria da CNH.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 20px;">
+        <h3 style="margin: 0; font-size: 15px; letter-spacing: 0.1em; text-transform: uppercase; color: #0F1C1E; display: flex; align-items: center; gap: 12px;"><span style="width: 28px; height: 2px; background: #005D53; display: inline-block;"></span>Segurança do Trabalho</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px;">
+          <div style="background: #F3F6F5; border-radius: 10px; padding: 30px; display: flex; flex-direction: column; gap: 12px; border-top: 4px solid #012C33;">
+            <h4 style="margin: 0; font-size: 21px; color: #0F1C1E;">PGR</h4>
+            <p style="margin: 0; color: #4A5759;">Elaboração do Programa de Gerenciamento de Riscos, base para definir exames, prazos e medidas de proteção.</p>
+          </div>
+          <div style="background: #F3F6F5; border-radius: 10px; padding: 30px; display: flex; flex-direction: column; gap: 12px; border-top: 4px solid #012C33;">
+            <h4 style="margin: 0; font-size: 21px; color: #0F1C1E;">LTCAT e laudos técnicos</h4>
+            <p style="margin: 0; color: #4A5759;">Laudo Técnico das Condições Ambientais do Trabalho e demais laudos técnicos obrigatórios.</p>
+          </div>
+          <div style="background: #F3F6F5; border-radius: 10px; padding: 30px; display: flex; flex-direction: column; gap: 12px; border-top: 4px solid #012C33;">
+            <h4 style="margin: 0; font-size: 21px; color: #0F1C1E;">SST no eSocial</h4>
+            <p style="margin: 0; color: #4A5759;">Gestão e envio dos eventos de Saúde e Segurança do Trabalho ao eSocial, sem retrabalho para o seu RH ou contador.</p>
+          </div>
+          <div style="background: #F3F6F5; border-radius: 10px; padding: 30px; display: flex; flex-direction: column; gap: 12px; border-top: 4px solid #012C33;">
+            <h4 style="margin: 0; font-size: 21px; color: #0F1C1E;">Treinamentos de NR</h4>
+            <p style="margin: 0; color: #4A5759;">Indicamos parceiros de confiança para os treinamentos obrigatórios da sua equipe.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IN COMPANY -->
+  <section id="in-company" style="background: #005D53; color: #FFFFFF;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 48px;">
+      <div style="display: flex; flex-wrap: wrap; gap: 56px; align-items: center;">
+        <div style="flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 20px;">
+          <p style="margin: 0; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #B9E0D8; font-weight: 700;">Atendimento in company</p>
+          <h2 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.15;">Sua equipe não precisa vir até a clínica. A clínica vai até ela.</h2>
+          <p style="margin: 0; font-size: 18px; color: #DCEFEB;">Levamos equipe e equipamentos até a fazenda, a madeireira ou a sede da sua empresa. Os exames são feitos no local, e ninguém perde o dia viajando.</p>
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <p style="margin: 0; font-size: 15px; font-weight: 700; color: #FFFFFF;">Exames e avaliações realizados no local</p>
+            <p style="margin: 0; color: #DCEFEB; font-size: 16px;">Acuidade visual · Audiometria · Espirometria · Eletrocardiograma (ECG) · Eletroencefalograma (EEG) · Teste de Ishihara · Teste de Romberg · Avaliação dermatológica · Escala de Sonolência de Epworth · Questionário de avaliação psicossocial · Exame toxicológico · Exames laboratoriais</p>
+            <p style="margin: 0; color: #B9E0D8; font-size: 14px;">Exames de diagnóstico por imagem não são realizados in company.</p>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-top: 6px;">
+            <div style="background: #0A4A43; border-radius: 10px; padding: 20px 22px; display: flex; flex-direction: column; gap: 6px;">
+              <p style="margin: 0; font-weight: 700; font-size: 17px;">Em Juína</p>
+              <p style="margin: 0; color: #DCEFEB; font-size: 15px;">Sem cobrança de deslocamento para atendimentos a partir de 10 colaboradores.</p>
+            </div>
+            <div style="background: #0A4A43; border-radius: 10px; padding: 20px 22px; display: flex; flex-direction: column; gap: 6px;">
+              <p style="margin: 0; font-weight: 700; font-size: 17px;">Na região e em outras localidades</p>
+              <p style="margin: 0; color: #DCEFEB; font-size: 15px;">Deslocamento calculado conforme a distância e informado antes do atendimento.</p>
+            </div>
+          </div>
+        </div>
+        <div style="flex: 1 1 360px; min-width: 0;">
+          <img src="./assets/5675fc3670a1ec065ee090feb1f5dbbc.jpg" alt="Profissional da Mestra realizando coleta de exames laboratoriais de um trabalhador rural no local de trabalho" style="width: 100%; height: 560px; object-fit: cover; border-radius: 14px; display: block;">
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+        <img src="./assets/1c6e3fe0d0b9939881017acdaf2a42e5.jpg" alt="Exame de acuidade visual realizado in company" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px; display: block;">
+        <img src="./assets/8e3115e8b128622772487a0060f9fae2.jpg" alt="Fonoaudióloga realizando audiometria in company" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px; display: block;">
+        <img src="./assets/6b85f1c5a38daa1066f6a09e4fa8f662.jpg" alt="Eletroencefalograma realizado in company" style="width: 100%; height: 300px; object-fit: cover; object-position: center 30%; border-radius: 10px; display: block;">
+        <img src="./assets/5efdf919a458ecdf4004ac0a4cad8aaf.jpg" alt="Médico realizando ausculta em trabalhador durante avaliação clínica in company" style="width: 100%; height: 300px; object-fit: cover; object-position: center 35%; border-radius: 10px; display: block;">
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA QUEM -->
+  <section style="background: #FFFFFF;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: stretch;">
+      <div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 28px;">
+        <div style="display: flex; flex-direction: column; gap: 14px;">
+          <p style="margin: 0; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #005D53; font-weight: 700;">Para quem atendemos</p>
+          <h2 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.15; color: #0F1C1E;">Quem trabalha pesado precisa de um parceiro que entende o campo.</h2>
+        </div>
+        <div style="background: #F3F6F5; border-radius: 10px; padding: 26px 28px; display: flex; flex-direction: column; gap: 8px;">
+          <h3 style="margin: 0; font-size: 20px; color: #0F1C1E;">Madeireiras</h3>
+          <p style="margin: 0; color: #4A5759;">Funções com ruído, poeira e esforço físico exigem exames complementares e laudos em dia. Cuidamos do calendário inteiro da equipe.</p>
+        </div>
+        <div style="background: #F3F6F5; border-radius: 10px; padding: 26px 28px; display: flex; flex-direction: column; gap: 8px;">
+          <h3 style="margin: 0; font-size: 20px; color: #0F1C1E;">Fazendas e pecuária</h3>
+          <p style="margin: 0; color: #4A5759;">Equipes espalhadas e longe da cidade: o atendimento in company evita deslocamentos e mantém a lida funcionando.</p>
+        </div>
+        <div style="background: #F3F6F5; border-radius: 10px; padding: 26px 28px; display: flex; flex-direction: column; gap: 8px;">
+          <h3 style="margin: 0; font-size: 20px; color: #0F1C1E;">Agroindústria, comércio e serviços</h3>
+          <p style="margin: 0; color: #4A5759;">Admissões rápidas, periódicos organizados e eventos de SST enviados ao eSocial, prontos para o RH e para a contabilidade.</p>
+        </div>
+      </div>
+      <div style="flex: 1 1 340px; min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px;">
+        <img src="./assets/e538b4fd4d7cf4d24c10c3d85ca0f5cb.jpg" alt="Confinamento de gado em fazenda atendida pela Mestra" style="width: 100%; height: 100%; min-height: 420px; object-fit: cover; border-radius: 12px; display: block;">
+        <img src="./assets/3ab2e4d005f37cd165657300551221f9.jpg" alt="Oficina de máquinas agrícolas em empresa atendida pela Mestra" style="width: 100%; height: 100%; min-height: 420px; object-fit: cover; border-radius: 12px; display: block;">
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section id="como-funciona" style="background: #F3F6F5;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 44px;">
+      <div style="max-width: 720px; display: flex; flex-direction: column; gap: 14px;">
+        <p style="margin: 0; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #005D53; font-weight: 700;">Como funciona</p>
+        <h2 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.15; color: #0F1C1E;">Da primeira conversa ao exame periódico, sem você ter que correr atrás.</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px;">
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <p style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 44px; font-weight: 600; color: #005D53; line-height: 1;">01</p>
+          <h3 style="margin: 0; font-size: 19px; color: #0F1C1E;">Você fala com a gente</h3>
+          <p style="margin: 0; color: #4A5759;">Conte quantos colaboradores tem, em quais funções e onde trabalham.</p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <p style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 44px; font-weight: 600; color: #005D53; line-height: 1;">02</p>
+          <h3 style="margin: 0; font-size: 19px; color: #0F1C1E;">Montamos a proposta</h3>
+          <p style="margin: 0; color: #4A5759;">Definimos programas, laudos e exames exigidos para cada função e enviamos uma proposta clara para a sua empresa.</p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <p style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 44px; font-weight: 600; color: #005D53; line-height: 1;">03</p>
+          <h3 style="margin: 0; font-size: 19px; color: #0F1C1E;">Atendemos sua equipe</h3>
+          <p style="margin: 0; color: #4A5759;">Em uma das nossas quatro unidades ou in company, no seu local de trabalho.</p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <p style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 44px; font-weight: 600; color: #005D53; line-height: 1;">04</p>
+          <h3 style="margin: 0; font-size: 19px; color: #0F1C1E;">Acompanhamos os prazos</h3>
+          <p style="margin: 0; color: #4A5759;">Quando o periódico da sua equipe se aproxima, a gente avisa para você não ser pego de surpresa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UNIDADES -->
+  <section id="unidades" style="background: #FFFFFF;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 32px;">
+      <div style="max-width: 720px; display: flex; flex-direction: column; gap: 14px;">
+        <p style="margin: 0; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #005D53; font-weight: 700;">Unidades</p>
+        <h2 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.15; color: #0F1C1E;">Perto da sua empresa, em todo o noroeste de Mato Grosso.</h2>
+        <p style="margin: 0; font-size: 18px; color: #4A5759;">Matriz em Juína e filiais em Juara, Brasnorte e Colniza.</p>
+      </div>
+
+      <div style="border: 1px solid #DCE3E2; border-radius: 12px; overflow: hidden; display: flex; flex-wrap: wrap;">
+        <div style="flex: 1 1 420px; min-width: 0; background: #E6EEEC; min-height: 360px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 24px;">
+          <svg aria-hidden="true" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#005D53" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>
+          <p style="margin: 0; color: #3F5D59; font-size: 15px; text-align: center;">[MAPA DO GOOGLE: entra incorporado na versão publicada do site]</p>
+        </div>
+        <div style="flex: 999 1 460px; min-width: 0; padding: 32px; display: flex; flex-direction: column; gap: 18px;">
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <p style="margin: 0; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #005D53; font-weight: 700;">Matriz</p>
+            <h3 style="margin: 0; font-size: 24px; color: #0F1C1E;">Juína/MT</h3>
+            <p style="margin: 0; color: #4A5759;">Av. Carmem Miranda, 206 · Módulo 02 · CEP 78320-000</p>
+            <p style="margin: 0; color: #4A5759;">Segunda a sexta · 07:30–11:30 · 13:30–17:30</p>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; font-size: 15px;">
+            <div style="display: flex; flex-direction: column; gap: 2px;">
+              <p style="margin: 0; font-weight: 700; color: #0F1C1E;">Recepção</p>
+              <a href="https://wa.me/5566984330006">(66) 9 8433-0006</a>
+              <a href="mailto:mestrajuina@mestramt.com.br">mestrajuina@mestramt.com.br</a>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 2px;">
+              <p style="margin: 0; font-weight: 700; color: #0F1C1E;">Setor de Saúde</p>
+              <a href="https://wa.me/5566981330470">(66) 9 8133-0470</a>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 2px;">
+              <p style="margin: 0; font-weight: 700; color: #0F1C1E;">Financeiro e Credenciamento</p>
+              <a href="https://wa.me/5566996896008">(66) 9 9689-6008</a>
+              <a href="mailto:financeiro@mestramt.com.br">financeiro@mestramt.com.br</a>
+            </div>
+          </div>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20Carmem%20Miranda%2C%20206%2C%20Ju%C3%ADna%20-%20MT%2C%2078320-000" style="align-self: flex-start; background: #005D53; color: #FFFFFF; text-decoration: none; padding: 14px 22px; border-radius: 6px; font-weight: 600; min-height: 48px; display: inline-flex; align-items: center; gap: 8px;">
+            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-8-8 18-2-8z"></path></svg>
+            Como chegar
+          </a>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+        <div style="background: #F3F6F5; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 14px;">
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <p style="margin: 0; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #005D53; font-weight: 700;">Filial</p>
+            <h3 style="margin: 0; font-size: 22px; color: #0F1C1E;">Juara/MT</h3>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px; color: #4A5759; font-size: 15px;">
+            <p style="margin: 0;">Rua São Geraldo, 813 S · Centro · CEP 78575-000</p>
+            <p style="margin: 0;">Segunda a sexta · 07:00–11:00 · 13:00–17:00</p>
+            <a href="https://wa.me/5566984060009">(66) 9 8406-0009</a>
+            <a href="mailto:mestrajuara@mestramt.com.br">mestrajuara@mestramt.com.br</a>
+          </div>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20S%C3%A3o%20Geraldo%2C%20813%2C%20Centro%2C%20Juara%20-%20MT%2C%2078575-000" style="align-self: flex-start; border: 1.5px solid #005D53; color: #005D53; text-decoration: none; padding: 12px 18px; border-radius: 6px; font-weight: 600; min-height: 44px; display: inline-flex; align-items: center;">Como chegar</a>
+        </div>
+        <div style="background: #F3F6F5; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 14px;">
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <p style="margin: 0; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #005D53; font-weight: 700;">Filial</p>
+            <h3 style="margin: 0; font-size: 22px; color: #0F1C1E;">Brasnorte/MT</h3>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px; color: #4A5759; font-size: 15px;">
+            <p style="margin: 0;">Av. General Osório, 140 · Centro · CEP 78350-000</p>
+            <p style="margin: 0;">Segunda a sexta · 07:00–11:00 · 13:30–18:00</p>
+            <a href="https://wa.me/5566984395621">(66) 9 8439-5621</a>
+            <a href="mailto:mestrabrasnorte@mestramt.com.br">mestrabrasnorte@mestramt.com.br</a>
+          </div>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20General%20Os%C3%B3rio%2C%20140%2C%20Centro%2C%20Brasnorte%20-%20MT%2C%2078350-000" style="align-self: flex-start; border: 1.5px solid #005D53; color: #005D53; text-decoration: none; padding: 12px 18px; border-radius: 6px; font-weight: 600; min-height: 44px; display: inline-flex; align-items: center;">Como chegar</a>
+        </div>
+        <div style="background: #F3F6F5; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 14px;">
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <p style="margin: 0; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #005D53; font-weight: 700;">Filial</p>
+            <h3 style="margin: 0; font-size: 22px; color: #0F1C1E;">Colniza/MT</h3>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px; color: #4A5759; font-size: 15px;">
+            <p style="margin: 0;">Av. Sete de Setembro, 192 · Centro · CEP 78335-000</p>
+            <p style="margin: 0;">Segunda a sexta · 07:00–11:30 · 13:30–17:30</p>
+            <a href="https://wa.me/5566992287360">(66) 9 9228-7360</a>
+            <a href="mailto:mestracolniza@mestramt.com.br">mestracolniza@mestramt.com.br</a>
+          </div>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20Sete%20de%20Setembro%2C%20192%2C%20Centro%2C%20Colniza%20-%20MT%2C%2078335-000" style="align-self: flex-start; border: 1.5px solid #005D53; color: #005D53; text-decoration: none; padding: 12px 18px; border-radius: 6px; font-weight: 600; min-height: 44px; display: inline-flex; align-items: center;">Como chegar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO / FORM -->
+  <section id="contato" style="background: #012C33; color: #FFFFFF;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; gap: 56px; align-items: flex-start;">
+      <div style="flex: 1 1 400px; min-width: 0; display: flex; flex-direction: column; gap: 18px;">
+        <p style="margin: 0; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #8FC9BF; font-weight: 700;">Proposta para empresas</p>
+        <h2 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.15;">Coloque a saúde e a segurança do trabalho da sua empresa em dia.</h2>
+        <p style="margin: 0; font-size: 18px; color: #C9DCDA;">Preencha os dados e nossa equipe entra em contato pelo WhatsApp com uma proposta para a sua empresa.</p>
+        <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 10px; font-size: 16px; color: #DCEFEB;">
+          <p style="margin: 0;">WhatsApp e telefone: <a href="https://wa.me/5566984330006" style="color: #FFFFFF; font-weight: 600;">(66) 9 8433-0006</a></p>
+          <p style="margin: 0;">E-mail: <a href="mailto:mestrajuina@mestramt.com.br" style="color: #FFFFFF; font-weight: 600;">mestrajuina@mestramt.com.br</a></p>
+          <p style="margin: 0; font-size: 15px; color: #C9DCDA;">Juara, Brasnorte e Colniza: contatos de cada filial na seção <a href="#unidades" style="color: #FFFFFF;">Unidades</a>.</p>
+        </div>
+      </div>
+      <form id="form-proposta" style="flex: 1 1 460px; min-width: 0; background: #FFFFFF; color: #1F2A2C; border-radius: 12px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+        <div style="display: flex; flex-direction: column; gap: 6px;">
+          <label for="f-nome" style="font-size: 14px; font-weight: 600;">Seu nome</label>
+          <input id="f-nome" name="nome" required="" type="text" autocomplete="name" style="border: 1px solid #B8C4C2; border-radius: 6px; padding: 12px 14px; min-height: 46px; font-size: 16px;">
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px;">
+          <label for="f-empresa" style="font-size: 14px; font-weight: 600;">Empresa</label>
+          <input id="f-empresa" name="empresa" required="" type="text" autocomplete="organization" style="border: 1px solid #B8C4C2; border-radius: 6px; padding: 12px 14px; min-height: 46px; font-size: 16px;">
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px;">
+          <label for="f-whats" style="font-size: 14px; font-weight: 600;">WhatsApp</label>
+          <input id="f-whats" name="whatsapp" required="" type="tel" autocomplete="tel" placeholder="(66) 90000-0000" style="border: 1px solid #B8C4C2; border-radius: 6px; padding: 12px 14px; min-height: 46px; font-size: 16px;">
+        </div>
+        <fieldset style="border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px;">
+          <legend style="font-size: 14px; font-weight: 600; padding: 0; margin-bottom: 8px;">Unidade de atendimento</legend>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px;">
+            <label class="unid"><input type="radio" name="unidade" value="Juína" required="" onChange="{{pick.juina}}"><span>Juína</span></label>
+            <label class="unid"><input type="radio" name="unidade" value="Juara" onChange="{{pick.juara}}"><span>Juara</span></label>
+            <label class="unid"><input type="radio" name="unidade" value="Brasnorte" onChange="{{pick.brasnorte}}"><span>Brasnorte</span></label>
+            <label class="unid"><input type="radio" name="unidade" value="Colniza" onChange="{{pick.colniza}}"><span>Colniza</span></label>
+          </div>
+        </fieldset>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px;">
+          <div style="display: flex; flex-direction: column; gap: 6px;">
+            <label for="f-colab" style="font-size: 14px; font-weight: 600;">Nº de colaboradores</label>
+            <select id="f-colab" name="colaboradores" style="border: 1px solid #B8C4C2; border-radius: 6px; padding: 12px 14px; min-height: 46px; font-size: 16px; background: #FFFFFF;">
+              <option>Até 10</option>
+              <option>11 a 50</option>
+              <option>51 a 200</option>
+              <option>Mais de 200</option>
+            </select>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 6px;">
+            <label for="f-servico" style="font-size: 14px; font-weight: 600;">Interesse principal</label>
+            <select id="f-servico" name="interesse" style="border: 1px solid #B8C4C2; border-radius: 6px; padding: 12px 14px; min-height: 46px; font-size: 16px; background: #FFFFFF;">
+              <option>Exames ocupacionais (ASO)</option>
+              <option>PCMSO</option>
+              <option>PGR, LTCAT e laudos</option>
+              <option>SST no eSocial</option>
+              <option>Atendimento in company</option>
+              <option>Pacote completo</option>
+            </select>
+          </div>
+        </div>
+        <sc-if value="{{temUnidade}}" hint-placeholder-val="{{false}}">
+          <a href="{{waLink}}" target="_blank" rel="noopener" style="background: #005D53; color: #FFFFFF; text-decoration: none; border-radius: 6px; padding: 16px 20px; min-height: 52px; font-size: 16px; font-weight: 700; margin-top: 6px; display: flex; align-items: center; justify-content: center; gap: 10px;">
+            <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.6 7.3L3 20.5l1.8-5.2A8.4 8.4 0 1 1 21 11.5z"></path></svg>
+            Quero receber a proposta
+          </a>
+          <p style="margin: 0; font-size: 13px; color: #005D53; text-align: center;">Você será atendido pelo WhatsApp da unidade {{unidade}}.</p>
+        </sc-if>
+        <sc-if value="{{semUnidade}}" hint-placeholder-val="{{true}}">
+          <a href="#form-proposta" style="background: #8AA5A1; color: #FFFFFF; text-decoration: none; border-radius: 6px; padding: 16px 20px; min-height: 52px; font-size: 16px; font-weight: 700; margin-top: 6px; display: flex; align-items: center; justify-content: center;">Quero receber a proposta</a>
+          <p style="margin: 0; font-size: 13px; color: #5B6769; text-align: center;">Escolha a unidade de atendimento para continuar.</p>
+        </sc-if>
+        <p style="margin: 0; font-size: 13px; color: #5B6769;">Seus dados são usados apenas para o contato comercial da Mestra. <a href="#privacidade">Política de privacidade</a></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- PARTICULARES -->
+  <section style="background: #FFFFFF; border-bottom: 1px solid #E3E8E7;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 48px 24px; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between;">
+      <div style="flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 6px;">
+        <h2 style="margin: 0; font-size: 22px; color: #0F1C1E;">Precisa de exame particular?</h2>
+        <p style="margin: 0; color: #4A5759;">Toxicológico para CNH, atestado para concurso público, audiometria, espirometria, eletrocardiograma e eletroencefalograma com pedido médico.</p>
+      </div>
+      <a href="https://wa.me/5566984330006?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20exame%20particular." style="border: 1.5px solid #005D53; color: #005D53; text-decoration: none; padding: 14px 22px; border-radius: 6px; font-weight: 600; min-height: 48px; display: inline-flex; align-items: center;">Agendar pelo WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="background: #0B1A1C; color: #C9D3D2; font-size: 15px;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 64px 24px 32px; display: flex; flex-direction: column; gap: 40px;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 32px;">
+        <div style="display: flex; flex-direction: column; gap: 14px;">
+          <img src="./assets/be123302aa51d6083f80c7ba55cbb32e.png" alt="Mestra" style="height: 64px; width: auto; align-self: flex-start;">
+          <p style="margin: 0;">Mestra Medicina e Segurança do Trabalho</p>
+          <p style="margin: 0; color: #9AAAA8;">Juína · Juara · Brasnorte · Colniza</p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <h3 style="margin: 0 0 4px; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFFFFF;">Matriz Juína</h3>
+          <p style="margin: 0;">Av. Carmem Miranda, 206 · Módulo 02</p>
+          <p style="margin: 0;">Juína/MT · 78320-000</p>
+          <p style="margin: 0;">Seg a sex · 07:30–11:30 · 13:30–17:30</p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <h3 style="margin: 0 0 4px; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFFFFF;">Contato</h3>
+          <a href="https://wa.me/5566984330006" style="color: #C9D3D2;">WhatsApp (66) 9 8433-0006</a>
+          <a href="mailto:mestrajuina@mestramt.com.br" style="color: #C9D3D2;">mestrajuina@mestramt.com.br</a>
+          <a href="https://www.instagram.com/mestra.mt/" style="color: #C9D3D2;">Instagram @mestra.mt</a>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <h3 style="margin: 0 0 4px; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFFFFF;">Filiais</h3>
+          <a href="https://wa.me/5566984060009" style="color: #C9D3D2;">Juara (66) 9 8406-0009</a>
+          <a href="https://wa.me/5566984395621" style="color: #C9D3D2;">Brasnorte (66) 9 8439-5621</a>
+          <a href="https://wa.me/5566992287360" style="color: #C9D3D2;">Colniza (66) 9 9228-7360</a>
+        </div>
+      </div>
+      <div style="border-top: 1px solid #24383B; padding-top: 24px; display: flex; flex-wrap: wrap; gap: 12px 32px; justify-content: space-between; font-size: 14px; color: #9AAAA8;">
+        <p style="margin: 0;">Diretor técnico médico: Dr. Paulo Cesare Frizanco · CRM-MT 8151</p>
+        <p style="margin: 0;">CNPJ 05.111.779/0001-36</p>
+        <a id="privacidade" href="#privacidade" style="color: #9AAAA8;">Política de privacidade</a>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":7800}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const numeros = { 'Juína': '5566984330006', 'Juara': '5566984060009', 'Brasnorte': '5566984395621', 'Colniza': '5566992287360' };
+    const unidade = (this.state && this.state.unidade) || '';
+    const msg = 'Olá! Vim pelo site e quero receber uma proposta para minha empresa. Unidade: ' + unidade + '.';
+    const set = (u) => () => this.setState({ unidade: u });
+    return {
+      unidade: unidade,
+      temUnidade: !!unidade,
+      semUnidade: !unidade,
+      waLink: unidade ? 'https://wa.me/' + numeros[unidade] + '?text=' + encodeURIComponent(msg) : '#form-proposta',
+      pick: { juina: set('Juína'), juara: set('Juara'), brasnorte: set('Brasnorte'), colniza: set('Colniza') }
+    };
+  }
+}
+</script>
+</body>
+</html>
