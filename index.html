@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PXVNZDQB');</script>
+<!-- End Google Tag Manager -->
 <meta charset="utf-8">
 <title>Mestra Medicina e Segurança do Trabalho — Juína/MT</title>
 <script src="./vendor/react.js"></script>
@@ -8,6 +15,10 @@
 <script src="./support.js"></script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXVNZDQB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <x-dc>
 <helmet>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -522,6 +533,10 @@ class Component extends DCLogic {
 
     fetch(PLANILHA_URL, { method: 'POST', mode: 'no-cors', keepalive: true, body: new URLSearchParams(dados) })
       .catch(function () {});
+
+    // Evento para o Google Tag Manager (ex.: conversão de lead)
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: 'lead_formulario', unidade: dados.unidade, colaboradores: dados.colaboradores, interesse: dados.interesse });
 
     var msg = 'Olá! Vim pelo site e quero receber uma proposta para minha empresa.\n' +
       'Nome: ' + dados.nome + '\n' +
